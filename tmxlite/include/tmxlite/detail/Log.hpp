@@ -178,7 +178,7 @@ namespace tmx
         }
     };
 }
-#ifndef _DEBUG_
+#ifndef TMXLITE_DEBUG
 #define LOG(message, type)
 #else
 #define LOG(message, type) {\
